@@ -1,0 +1,15 @@
+server:
+    port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ACCOUNT_BANKING
+    username: root
+    password: admin
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 10
+      max-lifetime: 5000
+      
+  jpa:
+    database: mysql
+ 
